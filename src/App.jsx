@@ -9,6 +9,7 @@ import './App.css';
 function App() {
   const [character, setCharacter] = useState(null)
   return (
+    <>
     <div className="app">
     <Background />
     <Header />
@@ -16,6 +17,7 @@ function App() {
     <Mains character={character} />
     <Footer />
     </div>
+    </>
   )
 }
 
