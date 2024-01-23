@@ -10,6 +10,7 @@ function App() {
   const [character, setCharacter] = useState(null)
   return (
     <>
+    <h1>Generate a random anime character</h1>
     <div className="app">
     <Background />
     <Header />

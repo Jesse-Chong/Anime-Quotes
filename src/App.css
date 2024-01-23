@@ -43,6 +43,11 @@ header {
   height: 635px;
 }
 
+h1 {
+  color: rgb(108, 153, 52);
+  font-weight: bold;
+}
+
 h2, h3 {
   color: white;
 }
